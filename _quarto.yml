@@ -1,0 +1,27 @@
+project:
+  type: website
+
+website:
+  title: "Breast Cancer Symptom Explorer"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - text: Research Facing Tools
+        menu: 
+          - b35-qol-explorer.qmd
+          - b35-ae-explorer.qmd
+          - b35-patient-explorer.qmd
+      - text: Patient Facing Tools
+        menu: 
+          - b35-patient-facing-explorer.qmd
+      - contact.qmd
+          
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+

@@ -1,0 +1,17 @@
+---
+title: "B35 AE Explorer"
+format:
+  html:
+    toc: false
+    page-layout: full
+---
+
+<p align="center">
+
+<iframe src="https://mluu921.shinyapps.io/u01-shiny-b35-ae-explorer/" height="1000px" width="1200px">
+
+</iframe>
+
+</p>
+
+<!-- [Github](https://github.com/mluu921/u01-shiny-b35-ae-explorer) -->
