@@ -6,12 +6,10 @@ format:
     page-layout: full
 ---
 
-<p align="center">
+```{r}
+#| out-width: 100%
+#| column: page
+#| echo: false
 
-<iframe src="https://mluu921.shinyapps.io/u01-shiny-b35-patient-explorer/" height="1000px" width="1200px">
-
-</iframe>
-
-</p>
-
-<!-- [Github](https://github.com/mluu921/u01-shiny-b35-patient-explorer) -->
+knitr::include_app("https://mluu921.shinyapps.io/u01-shiny-b35-patient-explorer/", height = '800px')
+```
