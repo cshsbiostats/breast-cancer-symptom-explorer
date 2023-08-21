@@ -1,0 +1,15 @@
+---
+title: "B35 Custom Explorer"
+format:
+  html:
+    toc: false
+    page-layout: full
+---
+
+```{r}
+#| out-width: 100%
+#| column: page
+#| echo: false
+
+knitr::include_app("https://cshsbiostats.shinyapps.io/u01-shiny-b35-custom-explorer/", height = '800px')
+```
