@@ -11,6 +11,5 @@ format:
 #| column: page
 #| echo: false
 
-knitr::include_app("https://mluu921.shinyapps.io/u01-shiny-b35-qol-explorer/", height = '800px')
+knitr::include_app("https://mluu921.shinyapps.io/u01-shiny-b35-qol-explorer/", height = '1000px')
 ```
-

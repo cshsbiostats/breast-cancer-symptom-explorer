@@ -7,6 +7,7 @@ title: "B35 Patient Facing Explorer"
 #| column: page
 #| echo: false
 
-knitr::include_app("https://mluu921.shinyapps.io/u01-shiny-patient-facing/", height = '800px')
+knitr::include_app("https://mluu921.shinyapps.io/u01-shiny-patient-facing/", height = '1000px')
 ```
 
+https://mluu921.shinyapps.io/u01-shiny-patient-facing/
