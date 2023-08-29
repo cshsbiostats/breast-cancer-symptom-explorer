@@ -1,5 +1,5 @@
 ---
-title: "B35 QOL Explorer"
+title: "B35 QOL Cohort Explorer"
 format:
   html:
     toc: false

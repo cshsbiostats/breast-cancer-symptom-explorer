@@ -1,5 +1,5 @@
 ---
-title: "B35 Patient Explorer"
+title: "B35 AE Cohort Explorer"
 format:
   html:
     toc: false
