@@ -1,5 +1,5 @@
 ---
-title: "B35 Custom Explorer"
+title: "Custom AE/QOL Explorer"
 format:
   html:
     toc: false
