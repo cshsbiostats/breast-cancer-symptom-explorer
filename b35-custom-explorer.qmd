@@ -1,5 +1,5 @@
 ---
-title: "Custom AE/QOL Explorer"
+title: "Custom AE/PRO Explorer"
 format:
   html:
     toc: false
