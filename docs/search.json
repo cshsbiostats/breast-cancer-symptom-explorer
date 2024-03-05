@@ -7,34 +7,6 @@
     "text": "Welcome!\nWelcome to the landing page of the U01 Breast Cancer Symptom Explorer.\nWith the above links, you can reach various tools to explore the data from the B35 Clinical Trial."
   },
   {
-    "objectID": "b35-patient-explorer.html",
-    "href": "b35-patient-explorer.html",
-    "title": "B35 AE Cohort Explorer",
-    "section": "",
-    "text": "https://mluu921.shinyapps.io/u01-shiny-b35-patient-explorer/"
-  },
-  {
-    "objectID": "b35-ae-explorer.html",
-    "href": "b35-ae-explorer.html",
-    "title": "B35 AE Explorer",
-    "section": "",
-    "text": "https://mluu921.shinyapps.io/u01-shiny-b35-ae-explorer/"
-  },
-  {
-    "objectID": "b35-custom-explorer.html",
-    "href": "b35-custom-explorer.html",
-    "title": "Custom AE/QOL Explorer",
-    "section": "",
-    "text": "https://cshsbiostats.shinyapps.io/u01-shiny-b35-custom-explorer/"
-  },
-  {
-    "objectID": "b35-patient-facing-explorer.html",
-    "href": "b35-patient-facing-explorer.html",
-    "title": "B35 Patient Facing Explorer",
-    "section": "",
-    "text": "https://mluu921.shinyapps.io/u01-shiny-patient-facing/"
-  },
-  {
     "objectID": "contact.html",
     "href": "contact.html",
     "title": "Contact",
