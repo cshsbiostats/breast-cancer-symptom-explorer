@@ -18,6 +18,10 @@ website:
         menu: 
           - b35-patient-facing-explorer.qmd
       - contact.qmd
+    tools:
+    - icon: github
+      href: https://github.com/cshsbiostats
+  
           
 format:
   html:
