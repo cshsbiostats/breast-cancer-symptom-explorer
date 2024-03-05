@@ -39,6 +39,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -152,8 +155,39 @@ ul.task-list li input[type="checkbox"] {
 <h1>Welcome!</h1>
 <p>Welcome to the landing page of the U01 Breast Cancer Symptom Explorer.</p>
 <p>With the above links, you can reach various tools to explore the data from the B35 Clinical Trial.</p>
+<section id="research-facing-tools" class="level2">
+<h2 class="anchored" data-anchor-id="research-facing-tools">Research Facing Tools</h2>
+<div>
+
+</div>
+<div class="cell quarto-layout-panel" data-layout-ncol="4">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;">
+<p><a href="images/b35-ae-cohort-explorer-screenshot.png" class="lightbox" data-gallery="research-facing"><img src="images/b35-ae-cohort-explorer-screenshot.png" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;">
+<p><a href="images/b35-qol-explorer-screenshot.png" class="lightbox" data-gallery="research-facing"><img src="images/b35-qol-explorer-screenshot.png" class="img-fluid"></a></p>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;">
+<p><a href="images/b35-ae-cohort-explorer-screenshot.png" class="lightbox" data-gallery="research-facing"><img src="images/b35-ae-cohort-explorer-screenshot.png" class="img-fluid"></a></p>
+</div>
+</div>
+</div>
+</section>
+<section id="patient-facing-tools" class="level2">
+<h2 class="anchored" data-anchor-id="patient-facing-tools">Patient Facing Tools</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><a href="images/b35-patient-facing-explorer.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="images/b35-patient-facing-explorer.png" class="img-fluid figure-img"></a></p>
+</figure>
+</div>
+</div>
+</div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -567,6 +601,31 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"loop":false,"selector":".lightbox","openEffect":"zoom","descPosition":"bottom","closeEffect":"zoom"});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
 
 
 
