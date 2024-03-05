@@ -1,11 +1,8 @@
 ---
-title: "B35 AE Cohort Explorer"
-format:
-  html:
-    toc: false
-    page-layout: full
+format: html
 ---
 
+## B35 AE Cohort Explorer
 ```{r}
 #| out-width: 100%
 #| column: screen-inset

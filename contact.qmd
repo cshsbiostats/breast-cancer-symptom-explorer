@@ -2,8 +2,8 @@
 title: "Contact"
 ---
 
-| Michael Luu, MPH
-| [michael.luu\@cshs.org](mailto:%20michael.luu@cshs.org)
+## Michael Luu, MPH
+- [michael.luu@cshs.org](mailto:michael.luu@cshs.org)
 
-| Gillian Gresham, PhD
-| [gillian.gresham\@cshs.org](mailto:%gillian.gresham@cshs.org)
+## Gillian Gresham, PhD
+- [gillian.gresham@cshs.org](mailto:gillian.gresham@cshs.org)

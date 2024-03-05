@@ -1,17 +1,16 @@
 ---
-format:
-  html:
-    toc: false
+format: html
 lightbox: true
 ---
 
-# Welcome!
+## Welcome!
 
 Welcome to the landing page of the U01 Breast Cancer Symptom Explorer.
 
 With the above links, you can reach various tools to explore the data from the B35 Clinical Trial.
 
 ## Research Facing Tools
+
 ```{r}
 #| layout-ncol: 4
 #| echo: false
@@ -24,8 +23,12 @@ knitr::include_graphics('images/b35-ae-cohort-explorer-screenshot.png')
 ```
 
 ## Patient Facing Tools
+
 ```{r}
+#| layout-ncol: 4
 #| echo: false
+#| lightbox:
+#|   group: patient-facing
 knitr::include_graphics('images/b35-patient-facing-explorer.png')
 ```
 

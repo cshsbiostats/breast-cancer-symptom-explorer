@@ -2,15 +2,50 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome!",
+    "title": "Breast Cancer Symptom Explorer",
     "section": "",
     "text": "Welcome to the landing page of the U01 Breast Cancer Symptom Explorer.\nWith the above links, you can reach various tools to explore the data from the B35 Clinical Trial."
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Breast Cancer Symptom Explorer",
+    "section": "",
+    "text": "Welcome to the landing page of the U01 Breast Cancer Symptom Explorer.\nWith the above links, you can reach various tools to explore the data from the B35 Clinical Trial."
+  },
+  {
+    "objectID": "index.html#research-facing-tools",
+    "href": "index.html#research-facing-tools",
+    "title": "Breast Cancer Symptom Explorer",
+    "section": "Research Facing Tools",
+    "text": "Research Facing Tools"
+  },
+  {
+    "objectID": "index.html#patient-facing-tools",
+    "href": "index.html#patient-facing-tools",
+    "title": "Breast Cancer Symptom Explorer",
+    "section": "Patient Facing Tools",
+    "text": "Patient Facing Tools"
   },
   {
     "objectID": "contact.html",
     "href": "contact.html",
     "title": "Contact",
     "section": "",
-    "text": "Michael Luu, MPH\nmichael.luu@cshs.org\nGillian Gresham, PhD\ngillian.gresham@cshs.org"
+    "text": "michael.luu@cshs.org"
+  },
+  {
+    "objectID": "contact.html#michael-luu-mph",
+    "href": "contact.html#michael-luu-mph",
+    "title": "Contact",
+    "section": "",
+    "text": "michael.luu@cshs.org"
+  },
+  {
+    "objectID": "contact.html#gillian-gresham-phd",
+    "href": "contact.html#gillian-gresham-phd",
+    "title": "Contact",
+    "section": "Gillian Gresham, PhD",
+    "text": "Gillian Gresham, PhD\n\ngillian.gresham@cshs.org"
   }
 ]

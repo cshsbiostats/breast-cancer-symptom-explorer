@@ -1,10 +1,8 @@
 ---
-title: "B35 QOL Cohort Explorer"
-format:
-  html:
-    toc: false
-    page-layout: full
+format: html
 ---
+
+## B35 QOL Cohort Explorer
 
 ```{r}
 #| out-width: 100%

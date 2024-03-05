@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -145,17 +145,28 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">Welcome!</a></li>
+  <li><a href="#research-facing-tools" id="toc-research-facing-tools" class="nav-link" data-scroll-target="#research-facing-tools">Research Facing Tools</a></li>
+  <li><a href="#patient-facing-tools" id="toc-patient-facing-tools" class="nav-link" data-scroll-target="#patient-facing-tools">Patient Facing Tools</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/cshsbiostats/breast-cancer-symptom-explorer/edit/master/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/cshsbiostats/breast-cancer-symptom-explorer/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
 
 
-<section id="welcome" class="level1">
-<h1>Welcome!</h1>
+<section id="welcome" class="level2">
+<h2 class="anchored" data-anchor-id="welcome">Welcome!</h2>
 <p>Welcome to the landing page of the U01 Breast Cancer Symptom Explorer.</p>
 <p>With the above links, you can reach various tools to explore the data from the B35 Clinical Trial.</p>
+</section>
 <section id="research-facing-tools" class="level2">
 <h2 class="anchored" data-anchor-id="research-facing-tools">Research Facing Tools</h2>
 <div>
@@ -177,18 +188,18 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="patient-facing-tools" class="level2">
 <h2 class="anchored" data-anchor-id="patient-facing-tools">Patient Facing Tools</h2>
-<div class="cell">
-<div class="cell-output-display">
 <div>
-<figure class="figure">
-<p><a href="images/b35-patient-facing-explorer.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img src="images/b35-patient-facing-explorer.png" class="img-fluid figure-img"></a></p>
-</figure>
+
+</div>
+<div class="cell quarto-layout-panel" data-layout-ncol="4">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell" style="flex-basis: 25.0%;justify-content: center;">
+<p><a href="images/b35-patient-facing-explorer.png" class="lightbox" data-gallery="patient-facing"><img src="images/b35-patient-facing-explorer.png" class="img-fluid"></a></p>
 </div>
 </div>
 </div>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -602,7 +613,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","descPosition":"bottom","selector":".lightbox","closeEffect":"zoom","loop":false});
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/cshsbiostats/breast-cancer-symptom-explorer/edit/master/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/cshsbiostats/breast-cancer-symptom-explorer/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div></div></footer><script>var lightboxQuarto = GLightbox({"loop":false,"selector":".lightbox","openEffect":"zoom","descPosition":"bottom","closeEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

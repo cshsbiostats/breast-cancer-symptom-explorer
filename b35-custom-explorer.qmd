@@ -1,10 +1,8 @@
 ---
-title: "Custom AE/QOL Explorer"
-format:
-  html:
-    toc: false
-    page-layout: full
+format: html
 ---
+
+## Custom AE/QOL Explorer
 
 ```{r}
 #| out-width: 100%
