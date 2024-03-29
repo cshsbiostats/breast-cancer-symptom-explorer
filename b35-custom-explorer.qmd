@@ -7,10 +7,6 @@ format:
 
 ## Custom AE/QOL Explorer
 
-The custom AE/QOL explorer allows the investigator to upload their own data in the application for generating Sankey diagrams. Please utilize the following file as a reference on the structure the application requires for data upload.
-
-[Download Template](res/custom_sankey_data_template.csv)
-
 ```{r}
 #| out-width: 100%
 #| column: screen-inset
