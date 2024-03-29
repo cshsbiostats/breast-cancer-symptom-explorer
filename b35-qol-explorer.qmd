@@ -1,13 +1,10 @@
 ---
-<<<<<<< HEAD
 title: "B35 PRO Cohort Explorer"
 format:
   html:
     toc: false
     page-layout: full
-=======
 format: html
->>>>>>> 52f5598e6e41f3504244524101f7547afa302e91
 ---
 
 ## B35 QOL Cohort Explorer
