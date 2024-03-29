@@ -1,17 +1,12 @@
 ---
-title: "B35 AE Cohort Explorer"
-format:
-  html:
-    toc: false
-    page-layout: full
+format: html
 ---
 
+## B35 AE Cohort Explorer
 ```{r}
 #| out-width: 100%
-#| column: page
+#| column: screen-inset
 #| echo: false
 
-knitr::include_app("https://mluu921.shinyapps.io/u01-shiny-b35-patient-explorer/", height = '800px')
+knitr::include_app("https://mluu921.shinyapps.io/u01-shiny-b35-patient-explorer/", height = '1000px')
 ```
-
-https://mluu921.shinyapps.io/u01-shiny-b35-patient-explorer/

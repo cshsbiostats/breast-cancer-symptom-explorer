@@ -1,17 +1,21 @@
 ---
+<<<<<<< HEAD
 title: "Custom AE/PRO Explorer"
 format:
   html:
     toc: false
     page-layout: full
+=======
+format: html
+>>>>>>> 52f5598e6e41f3504244524101f7547afa302e91
 ---
+
+## Custom AE/QOL Explorer
 
 ```{r}
 #| out-width: 100%
-#| column: page
+#| column: screen-inset
 #| echo: false
 
-knitr::include_app("https://cshsbiostats.shinyapps.io/u01-shiny-b35-custom-explorer/", height = '800px')
+knitr::include_app("https://cshsbiostats.shinyapps.io/u01-shiny-b35-custom-explorer/", height = '1000px')
 ```
-
-https://cshsbiostats.shinyapps.io/u01-shiny-b35-custom-explorer/

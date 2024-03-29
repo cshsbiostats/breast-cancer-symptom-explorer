@@ -4,6 +4,9 @@ project:
 
 website:
   title: "Breast Cancer Symptom Explorer"
+  repo-url: https://github.com/cshsbiostats/breast-cancer-symptom-explorer
+  repo-actions: [edit, issue]
+  repo-branch: master
   navbar:
     left:
       - href: index.qmd
@@ -17,8 +20,12 @@ website:
       - text: Patient Facing Tools
         menu: 
           - b35-patient-facing-explorer.qmd
-      - contact.qmd
-          
+      - href: contact.qmd
+        text: Contact
+    tools:
+    - icon: github
+      href: https://github.com/cshsbiostats
+  
 format:
   html:
     theme: cosmo

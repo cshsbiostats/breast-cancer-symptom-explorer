@@ -2,43 +2,50 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome!",
+    "title": "Breast Cancer Symptom Explorer",
     "section": "",
-    "text": "Welcome!\nWelcome to the landing page of the U01 Breast Cancer Symptom Explorer.\nWith the above links, you can reach various tools to explore the data from the B35 Clinical Trial."
+    "text": "Welcome to the landing page of the U01 Breast Cancer Symptom Explorer.\nWith the above links, you can reach various tools to explore the data from the B35 Clinical Trial."
   },
   {
-    "objectID": "b35-patient-explorer.html",
-    "href": "b35-patient-explorer.html",
-    "title": "B35 AE Cohort Explorer",
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Breast Cancer Symptom Explorer",
     "section": "",
-    "text": "https://mluu921.shinyapps.io/u01-shiny-b35-patient-explorer/"
+    "text": "Welcome to the landing page of the U01 Breast Cancer Symptom Explorer.\nWith the above links, you can reach various tools to explore the data from the B35 Clinical Trial."
   },
   {
-    "objectID": "b35-ae-explorer.html",
-    "href": "b35-ae-explorer.html",
-    "title": "B35 AE Explorer",
-    "section": "",
-    "text": "https://mluu921.shinyapps.io/u01-shiny-b35-ae-explorer/"
+    "objectID": "index.html#research-facing-tools",
+    "href": "index.html#research-facing-tools",
+    "title": "Breast Cancer Symptom Explorer",
+    "section": "Research Facing Tools",
+    "text": "Research Facing Tools"
   },
   {
-    "objectID": "b35-custom-explorer.html",
-    "href": "b35-custom-explorer.html",
-    "title": "Custom AE/QOL Explorer",
-    "section": "",
-    "text": "https://cshsbiostats.shinyapps.io/u01-shiny-b35-custom-explorer/"
-  },
-  {
-    "objectID": "b35-patient-facing-explorer.html",
-    "href": "b35-patient-facing-explorer.html",
-    "title": "B35 Patient Facing Explorer",
-    "section": "",
-    "text": "https://mluu921.shinyapps.io/u01-shiny-patient-facing/"
+    "objectID": "index.html#patient-facing-tools",
+    "href": "index.html#patient-facing-tools",
+    "title": "Breast Cancer Symptom Explorer",
+    "section": "Patient Facing Tools",
+    "text": "Patient Facing Tools"
   },
   {
     "objectID": "contact.html",
     "href": "contact.html",
     "title": "Contact",
     "section": "",
-    "text": "Michael Luu, MPH\nmichael.luu@cshs.org"
+    "text": "michael.luu@cshs.org"
+  },
+  {
+    "objectID": "contact.html#michael-luu-mph",
+    "href": "contact.html#michael-luu-mph",
+    "title": "Contact",
+    "section": "",
+    "text": "michael.luu@cshs.org"
+  },
+  {
+    "objectID": "contact.html#gillian-gresham-phd",
+    "href": "contact.html#gillian-gresham-phd",
+    "title": "Contact",
+    "section": "Gillian Gresham, PhD",
+    "text": "Gillian Gresham, PhD\n\ngillian.gresham@cshs.org"
   }
 ]

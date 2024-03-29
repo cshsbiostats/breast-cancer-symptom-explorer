@@ -1,13 +1,12 @@
 ---
-title: "B35 Patient Facing Explorer"
+format: html
 ---
 
+## B35 Patient Facing Explorer
 ```{r}
 #| out-width: 100%
-#| column: page
+#| column: screen-inset
 #| echo: false
 
-knitr::include_app("https://mluu921.shinyapps.io/u01-shiny-patient-facing/", height = '800px')
+knitr::include_app("https://mluu921.shinyapps.io/u01-shiny-patient-facing/", height = '1000px')
 ```
-
-https://mluu921.shinyapps.io/u01-shiny-patient-facing/
