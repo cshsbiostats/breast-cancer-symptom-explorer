@@ -3,6 +3,7 @@ format: html
 ---
 
 ## B35 Patient Facing Explorer
+
 ```{r}
 #| out-width: 100%
 #| column: screen-inset

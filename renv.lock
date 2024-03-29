@@ -9,8 +9,6 @@
     ]
   },
   "Packages": {
-<<<<<<< HEAD
-=======
     "R6": {
       "Package": "R6",
       "Version": "2.5.1",
@@ -29,13 +27,21 @@
     },
     "bslib": {
       "Package": "bslib",
-      "Version": "0.6.1",
+      "Version": "0.7.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "c0d8599494bc7fb408cd206bbdd9cab0",
+      "RemoteType": "standard",
+      "RemotePkgRef": "bslib",
+      "RemoteRef": "bslib",
+      "RemoteRepos": "https://cran.rstudio.com",
+      "RemoteReposName": "CRAN",
+      "RemotePkgPlatform": "source",
+      "RemoteSha": "0.7.0",
+      "Hash": "8644cc53f43828f19133548195d7e59e",
       "Requirements": [
         "base64enc",
         "cachem",
+        "fastmap",
         "htmltools",
         "jquerylib",
         "jsonlite",
@@ -67,21 +73,11 @@
     },
     "digest": {
       "Package": "digest",
-      "Version": "0.6.34",
-      "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "7ede2ee9ea8d3edbf1ca84c1e333ad1a",
-      "Requirements": []
-    },
-    "ellipsis": {
-      "Package": "ellipsis",
-      "Version": "0.3.2",
+      "Version": "0.6.35",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "bb0eec2fe32e88d9e2836c2f73ea2077",
-      "Requirements": [
-        "rlang"
-      ]
+      "Hash": "698ece7ba5a4fa4559e3d537e7ec3d31",
+      "Requirements": []
     },
     "evaluate": {
       "Package": "evaluate",
@@ -138,14 +134,13 @@
     },
     "htmltools": {
       "Package": "htmltools",
-      "Version": "0.5.7",
+      "Version": "0.5.8",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "2d7b3857980e0e0d0a1fd6f11928ab0f",
+      "Hash": "149431ee39aba5bdc264112c8ff94444",
       "Requirements": [
         "base64enc",
         "digest",
-        "ellipsis",
         "fastmap",
         "rlang"
       ]
@@ -193,14 +188,6 @@
         "rlang"
       ]
     },
-    "magrittr": {
-      "Package": "magrittr",
-      "Version": "2.0.3",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "7ce2733a9826b3aeb1775d56fd305472",
-      "Requirements": []
-    },
     "memoise": {
       "Package": "memoise",
       "Version": "2.0.1",
@@ -228,7 +215,6 @@
       "Hash": "5e3c5dc0b071b21fa128676560dbe94d",
       "Requirements": []
     },
->>>>>>> 52f5598e6e41f3504244524101f7547afa302e91
     "renv": {
       "Package": "renv",
       "Version": "1.0.5",
@@ -236,8 +222,6 @@
       "Repository": "CRAN",
       "Hash": "32c3f93e8360f667ca5863272ec8ba6a",
       "Requirements": []
-<<<<<<< HEAD
-=======
     },
     "rlang": {
       "Package": "rlang",
@@ -249,10 +233,17 @@
     },
     "rmarkdown": {
       "Package": "rmarkdown",
-      "Version": "2.25",
+      "Version": "2.26",
       "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "d65e35823c817f09f4de424fcdfa812a",
+      "Repository": "RSPM",
+      "RemoteType": "standard",
+      "RemotePkgRef": "rmarkdown",
+      "RemoteRef": "rmarkdown",
+      "RemoteRepos": "https://packagemanager.posit.co/cran/latest",
+      "RemoteReposName": "CRAN",
+      "RemotePkgPlatform": "x86_64-w64-mingw32",
+      "RemoteSha": "2.26",
+      "Hash": "9b148e7f95d33aac01f31282d49e4f44",
       "Requirements": [
         "bslib",
         "evaluate",
@@ -261,7 +252,6 @@
         "jquerylib",
         "jsonlite",
         "knitr",
-        "stringr",
         "tinytex",
         "xfun",
         "yaml"
@@ -269,10 +259,17 @@
     },
     "sass": {
       "Package": "sass",
-      "Version": "0.4.8",
+      "Version": "0.4.9",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "168f9353c76d4c4b0a0bbf72e2c2d035",
+      "RemoteType": "standard",
+      "RemotePkgRef": "sass",
+      "RemoteRef": "sass",
+      "RemoteRepos": "https://cran.rstudio.com",
+      "RemoteReposName": "CRAN",
+      "RemotePkgPlatform": "source",
+      "RemoteSha": "0.4.9",
+      "Hash": "d53dbfddf695303ea4ad66f86e99b95d",
       "Requirements": [
         "R6",
         "fs",
@@ -281,59 +278,22 @@
         "rlang"
       ]
     },
-    "stringi": {
-      "Package": "stringi",
-      "Version": "1.8.3",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "058aebddea264f4c99401515182e656a",
-      "Requirements": []
-    },
-    "stringr": {
-      "Package": "stringr",
-      "Version": "1.5.1",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "960e2ae9e09656611e0b8214ad543207",
-      "Requirements": [
-        "cli",
-        "glue",
-        "lifecycle",
-        "magrittr",
-        "rlang",
-        "stringi",
-        "vctrs"
-      ]
-    },
     "tinytex": {
       "Package": "tinytex",
-      "Version": "0.49",
+      "Version": "0.50",
       "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "5ac22900ae0f386e54f1c307eca7d843",
+      "Repository": "CRAN",
+      "Hash": "be7a76845222ad20adb761f462eed3ea",
       "Requirements": [
         "xfun"
       ]
     },
-    "vctrs": {
-      "Package": "vctrs",
-      "Version": "0.6.5",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "c03fa420630029418f7e6da3667aac4a",
-      "Requirements": [
-        "cli",
-        "glue",
-        "lifecycle",
-        "rlang"
-      ]
-    },
     "xfun": {
       "Package": "xfun",
-      "Version": "0.42",
+      "Version": "0.43",
       "Source": "Repository",
-      "Repository": "RSPM",
-      "Hash": "fd1349170df31f7a10bd98b0189e85af",
+      "Repository": "CRAN",
+      "Hash": "ab6371d8653ce5f2f9290f4ec7b42a8e",
       "Requirements": []
     },
     "yaml": {
@@ -343,7 +303,6 @@
       "Repository": "CRAN",
       "Hash": "29240487a071f535f5e5d5a323b7afbd",
       "Requirements": []
->>>>>>> 52f5598e6e41f3504244524101f7547afa302e91
     }
   }
 }
