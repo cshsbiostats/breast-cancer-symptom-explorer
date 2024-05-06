@@ -13,10 +13,7 @@ website:
         text: Home
       - text: Research Facing Tools
         menu: 
-          - b35-ae-explorer.qmd
-          - b35-qol-explorer.qmd
-          - b35-patient-explorer.qmd
-          - b35-custom-explorer.qmd
+          - b35-bcse-combined.qmd
       - text: Patient Facing Tools
         menu: 
           - b35-patient-facing-explorer.qmd

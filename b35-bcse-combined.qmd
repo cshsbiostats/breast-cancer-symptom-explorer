@@ -1,0 +1,13 @@
+---
+format: html
+---
+
+## B35 Research Facing Tool
+
+```{r}
+#| out-width: 100%
+#| column: screen-inset
+#| echo: false
+
+knitr::include_app("https://cshsbiostats.shinyapps.io/bcse", height = '1000px')
+```
